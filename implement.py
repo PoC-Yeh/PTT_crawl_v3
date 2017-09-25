@@ -13,5 +13,5 @@ from main import *
 url_list = ptt_url_implement("MakeUp", "2")
 print(len(url_list))
 
-url_meta_text_list = ptt_text_implement("MakeUp")
+url_meta_text_list = ptt_text_implement("MakeUp", url_list)
 print(len(url_meta_text_list))
